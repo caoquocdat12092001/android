@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#811CB8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="530dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/faster_one"
+        android:gravity="center"
+        android:text="thêm bài hát"
+        android:textSize="30dp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/anhnhac"
+            android:layout_marginLeft="75dp"
+            android:src="@drawable/avata1"
+            android:layout_width="200dp"
+            android:layout_height="200dp">
+
+        </ImageView>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tenbathat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên bài hát"
+            android:textColor="@color/mautrang" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tencasi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên Ca sĩ" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/dialogbtnthem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#0D0E0E"
+        android:fontFamily="@font/carter_one"
+        android:text="add"
+        android:textColor="#ffffff">
+
+    </Button>
+
+
+</LinearLayout>

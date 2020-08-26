@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/hinhnen2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="172dp"
+        android:src="@drawable/logozing">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:gravity="center_horizontal"
+        android:text="Tài sản của Zing ID sẽ được hỗ trợ chuyển sang Zalo ID. Nhận ngay ưu đãi VIP 30 ngày cho lần đăng nhập đầu tiên"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnformdangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/stylebtn"
+        android:drawableLeft="@drawable/logozalo"
+        android:paddingLeft="20dp"
+        android:text="đăng nhập qua zalo"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/btnformdangki"
+        android:textSize="15dp"
+        android:background="@color/trans"
+        android:layout_alignParentBottom="true"
+        android:text="tạo tài khoản Zalo"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    
+</RelativeLayout>

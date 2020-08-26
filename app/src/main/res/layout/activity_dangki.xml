@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/hinhnen1"
+    android:padding="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.dangki">
+
+    <ImageView
+        android:src="@drawable/logozing"
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ettendangnhap"
+        app:errorIconTint="@color/mautrang"
+        app:errorEnabled="true"
+        android:textColorHint="#fff"
+        app:counterMaxLength="30"
+        app:counterTextColor="@color/mautrang"
+        app:endIconTint="@color/mautrang"
+        app:counterEnabled="true"
+        app:boxStrokeColor="@color/mautrang"
+        app:endIconMode="clear_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mautrang"
+            android:hint="Tên đăng nhập" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etemail"
+        app:errorEnabled="true"
+        android:layout_width="match_parent"
+        android:textColorHint="#fff"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/mautrang"
+        app:counterMaxLength="100"
+        app:counterEnabled="true"
+        app:counterTextColor="@color/mautrang"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mautrang"
+            android:hint="email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etpassword"
+        app:errorEnabled="true"
+        android:layout_width="match_parent"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/mautrang"
+        app:counterMaxLength="50"
+        app:counterEnabled="true"
+        app:counterTextColor="@color/mautrang"
+        android:textColorHint="#fff"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mautrang"
+            android:inputType="textPassword"
+            android:hint="password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etcfpassword"
+        app:errorEnabled="true"
+        android:layout_width="match_parent"
+        app:endIconTint="@color/mautrang"
+        android:textColorHint="#fff"
+        app:counterMaxLength="50"
+        app:counterEnabled="true"
+        app:counterTextColor="@color/mautrang"
+        app:endIconMode="password_toggle"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mautrang"
+            android:inputType="textPassword"
+            android:hint="confirm password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btndangkitaikhoan"
+            android:text="đăng ký"
+            android:layout_weight="5"
+            android:background="@drawable/stylebtn1"
+            android:textColor="@color/mautrang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:id="@+id/btnhuydangkitaikhoan"
+            android:text="hủy"
+            android:textColor="@color/mautrang"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/stylebtn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

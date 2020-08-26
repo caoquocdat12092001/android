@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/hinhnen1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:src="@drawable/logozing"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etuser"
+        android:layout_width="match_parent"
+        android:textColorHint="#fff"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/mautrang"
+        app:counterMaxLength="100"
+        app:counterEnabled="true"
+        app:counterTextColor="@color/mautrang"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mautrang"
+            android:hint="Tên đăng nhập" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/mautrang"
+        app:counterMaxLength="50"
+        app:counterEnabled="true"
+        app:counterTextColor="@color/mautrang"
+        android:textColorHint="#fff"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mautrang"
+            android:inputType="textPassword"
+            android:hint="password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/cbremember"
+        android:text="Remember"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/mautrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+
+    <Button
+        android:id="@+id/dangnhap"
+        android:text="đăng nhập"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stylebtn1"
+        android:textColor="@color/mautrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:text="Quên mật khẩu "
+            android:textAllCaps="false"
+            android:textAlignment="textEnd"
+            android:textColor="@color/mautrang"
+            android:background="@drawable/stybtntrongsuot"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btndnchuyendangki"
+            android:text="/  Đăng kí"
+            android:textAllCaps="false"
+            android:textColor="@color/mautrang"
+            android:background="@drawable/stybtntrongsuot"
+            android:gravity="start"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>

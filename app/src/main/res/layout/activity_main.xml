@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/anhnen7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/logozing"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tendat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="bài asm CAO QUỐC ĐẠT"
+        android:textSize="30sp">
+
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/anhcasi"
+        android:src="@drawable/nhac1"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp">
+
+
+
+    <TextView
+        android:id="@+id/tennhac"
+        android:text="Có chắc yêu là đây"
+        android:textColor="#0E0E0E"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tencasinhac"
+        android:text="Sơn tùng - mtp"
+        android:textColor="#686565"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="70dp"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/sua"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_baseline_autorenew_24"
+            android:layout_width="35dp"
+            android:layout_height="35dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/xoa"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            android:layout_width="35dp"
+            android:layout_height="35dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

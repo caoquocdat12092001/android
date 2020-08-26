@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.manhinhgiaodien">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:background="#8F168B"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+            </androidx.appcompat.widget.Toolbar>
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:id="@+id/framelayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/menu_bottom">
+
+                    </FrameLayout>
+
+                    <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:id="@+id/menu_bottom"
+                        android:background="#B1B5C0"
+                        app:menu="@menu/menu_bottom"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+                </RelativeLayout>
+        </LinearLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true">
+            <ImageView
+                android:background="@drawable/anhnen11"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_marginTop="160dp"
+                android:orientation="horizontal"
+                android:background="#9D9C9E"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/anhngdung"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tvnguoidung"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/convergence"
+                    android:text="tên người dùng"
+                    android:textColor="#000"
+                    android:textSize="30dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="Cá nhân"
+                android:textColor="#000000"
+                android:textSize="25dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_marginTop="260dp"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btnthongtin"
+                android:text="Thông tin cá nhân"
+                android:background="@drawable/stybtntrongsuot"
+                android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+                android:textAllCaps="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+                <Button
+                    android:id="@+id/listnhaccanhan"
+                    android:text="Danh sách nhạc cá nhân"
+                    android:background="@drawable/stybtntrongsuot"
+                    android:drawableLeft="@drawable/ic_baseline_queue_music_24"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </Button>
+                <Button
+                    android:id="@+id/btndangxuat"
+                    android:text="Đăng xuất"
+                    android:background="@drawable/stybtntrongsuot"
+                    android:drawableLeft="@drawable/ic_baseline_subdirectory_arrow_right_24"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

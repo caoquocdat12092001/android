@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuhome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Trang chủ">
+    </item>
+
+    <item
+        android:id="@+id/menucanhan"
+        android:icon="@drawable/ic_baseline_assignment_ind_24"
+        android:title="Trình phát nhạc">
+
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/menuyeuthich"-->
+<!--        android:icon="@drawable/yeuthichicon"-->
+<!--        android:title="Yêu thích">-->
+<!--    </item>-->
+</menu>

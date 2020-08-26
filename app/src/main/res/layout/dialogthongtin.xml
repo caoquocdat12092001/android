@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_width="340dp" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#581787"
+        android:layout_marginBottom="50dp"
+        android:text="thông tin tài khoản">
+
+    </TextView>
+
+    <TextView
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+        android:textSize="20dp"
+        android:textColor="#2C2A2D"
+        android:text="Tên người dùng :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tennguoidung"
+        android:textSize="20dp"
+        android:text="tên người dùng :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:textSize="20dp"
+        android:textColor="#2C2A2D"
+        android:text="Mật khẩu :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:id="@+id/matkhaunguoidung"
+        android:textSize="20dp"
+        android:text="tên người dùng :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>

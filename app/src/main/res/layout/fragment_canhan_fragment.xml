@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/anhnen7"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.canhan_fragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tenbaihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tên bài hát"
+            android:gravity="center"
+            android:textColor="#FAFAFA"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/dianhac"
+            android:src="@drawable/dianhac2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_width="330dp"
+            android:layout_height="330dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/tgbatdau"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="110dp"
+            android:text="00:00"
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tgketthuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="#FAFAFA"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="110dp"
+            android:text="00:00">
+
+        </TextView>
+
+        <SeekBar
+            android:id="@+id/thoigianchay"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </SeekBar>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btnquaylai"
+                android:background="@drawable/ic_baseline_skip_previous_24"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/btnphat"
+                android:background="@drawable/stybtntrongsuot"
+                android:src="@drawable/ic_baseline_play_circle_outline_24"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/btnnext"
+                android:background="@drawable/ic_baseline_skip_next_24"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageButton>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">app_zing</string>
+    <color name="red">#73D1D0</color>
+    <color name="blue">#3583FF</color>
+    <color name="black">#99000000</color>
+    <color name="trans">#00000000</color>
+    <color name="mautrang">#ffffff</color>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

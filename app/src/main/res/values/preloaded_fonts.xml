@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/archivo_black</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/carter_one</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/convergence</item>
+        <item>@font/faster_one</item>
+    </array>
+</resources>
